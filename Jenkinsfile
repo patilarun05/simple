@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Code compilation'){
             steps{
-                echo 'Code compilation is in progress...'
+                echo 'Code compilation is in progress....'
                 sh 'mvn clean compile'
                 echo 'Code compilation completed'
             }
